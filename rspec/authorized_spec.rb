@@ -1,5 +1,6 @@
 require "rspec"
 require "watir-webdriver"
+require "../keyboard"
 
 describe "The portal-facade-ng/login_test.html" do
 
@@ -9,6 +10,7 @@ describe "The portal-facade-ng/login_test.html" do
 
   before :each do
     @browser.goto("172.20.0.4/portal-ng/")
+    @browser.execute_script(Keyboard::PLATFORM_CODES)
   end
 
   it "should find 10 profiles" do
@@ -17,10 +19,11 @@ describe "The portal-facade-ng/login_test.html" do
 
   it "should enter into the portal and should see mosaic" do
     sleep 3
-    @browser.send_keys(:return)
+    @browser.send_keys(Keyboard::ENTER)
     sleep 3
-    @browser.send_keys(:f3)
-    @browser.send_keys(:return)
+
+    @browser.send_keys(Keyboard::NUMB1)
+    @browser.send_keys(Keyboard::ENTER)
     sleep 10
 
     images = @browser.images
