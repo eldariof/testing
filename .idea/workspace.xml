@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a0dc6b5-7068-470d-8770-002e9d6f8953" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/testing.iml" afterPath="$PROJECT_DIR$/.idea/testing.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/testing.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/keyboard.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rspec/authorized_spec.rb" afterPath="$PROJECT_DIR$/rspec/authorized_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rspec/login_spec.rb" afterPath="$PROJECT_DIR$/rspec/login_spec.rb" />
     </list>
     <ignored path="testing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +36,7 @@
       <file leaf-file-name="authorized_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rspec/authorized_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="4" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+            <state line="4" column="5" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -43,7 +45,7 @@
       <file leaf-file-name="login_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rspec/login_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="55" selection-end="55" vertical-scroll-proportion="0.053619303">
+            <state line="2" column="10" selection-start="52" selection-end="52" vertical-scroll-proportion="0.053547524">
               <folding />
             </state>
           </provider>
@@ -77,8 +79,8 @@
         <option value="$PROJECT_DIR$/codes.rb" />
         <option value="$PROJECT_DIR$/keyboard.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/rspec/authorized_spec.rb" />
         <option value="$PROJECT_DIR$/rspec/login_spec.rb" />
+        <option value="$PROJECT_DIR$/rspec/authorized_spec.rb" />
       </list>
     </option>
   </component>
@@ -124,6 +126,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -162,17 +166,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -515,9 +517,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11550633" sideWeight="0.8278075" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11550633" sideWeight="0.82887703" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22780749" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="51" y="282" width="1896" height="280" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17219251" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.171123" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -639,13 +641,6 @@
         <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keyboard.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="37" selection-start="905" selection-end="905" vertical-scroll-proportion="0.08847185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="222" selection-end="230" vertical-scroll-proportion="0.34852546">
@@ -655,14 +650,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rspec/authorized_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+        <state line="4" column="5" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rspec/login_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="55" selection-end="55" vertical-scroll-proportion="0.053619303">
+        <state line="2" column="10" selection-start="52" selection-end="52" vertical-scroll-proportion="0.053547524">
           <folding />
         </state>
       </provider>

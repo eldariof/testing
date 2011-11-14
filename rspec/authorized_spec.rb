@@ -1,7 +1,7 @@
 require "rspec"
 require "watir-webdriver"
 require "headless"
-require "../keyboard"
+load "keyboard.rb"
 
 describe "The portal-facade-ng/login_test.html" do
 
