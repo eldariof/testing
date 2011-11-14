@@ -1,10 +1,17 @@
 require "rspec"
 require "watir-webdriver"
+require "headless"
 require "../keyboard"
 
 describe "The portal-facade-ng/login_test.html" do
 
   before :all do
+    begin
+      @headless = Headless.new
+      @headless.start
+    rescue Headless::Exception => ex
+      print ex.message
+    end
     @browser = Watir::Browser.new(:firefox)
   end
 
@@ -39,5 +46,6 @@ describe "The portal-facade-ng/login_test.html" do
 
   after :all do
 	  @browser.close unless @browser.nil?
+    @headless.destroy unless @headless.nil?
   end
 end
