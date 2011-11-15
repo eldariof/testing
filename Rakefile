@@ -9,5 +9,6 @@ task :default => :spec
 desc "Run specs"
 RSpec::Core::RakeTask.new do |t|  
   t.pattern = "./rspec/*_spec.rb"
+   t.spec_opts = ['--format h > test-output/results.html']
 end
 
