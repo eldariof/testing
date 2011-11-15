@@ -1,7 +1,7 @@
 require "rspec"
 require "watir-webdriver"
 require "headless"
-load "keyboard.rb"
+require File.join(File.dirname(__FILE__), "../keyboard.rb")
 
 describe "The portal-facade-ng/login_test.html" do
 
@@ -25,6 +25,7 @@ describe "The portal-facade-ng/login_test.html" do
   end
 
   it "should enter into the portal and should see mosaic" do
+
     sleep 3
     @browser.send_keys(Keyboard::ENTER)
     sleep 3
